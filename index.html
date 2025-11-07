@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre con pestaña superior</title>
+  <link rel="stylesheet" href="style.css">
+  <audio id="musica" src="src/audio.mp3"></audio>
+  <!-- Metadatos para miniatura -->
+<meta property="og:title" content="🎉 Invitación de Cumpleaños - Russell 18 Años" />
+<meta property="og:description" content="Acompáñanos a celebrar este día especial. Presiona para abrir tu invitación." />
+<meta property="og:image" content="https://diptestudio.github.io/invitacion-russell/src/miniatura.jpg" />
+<meta property="og:url" content="https://diptestudio.github.io/invitacion-russell/" />
+<meta property="og:type" content="website" />
+
+<!-- Para WhatsApp y móviles -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🎂 Invitación de Cumpleaños">
+<meta name="twitter:description" content="Haz clic y abre tu invitación especial.">
+<meta name="twitter:image" content="https://diptestudio.github.io/invitacion-russell/src/miniatura.jpg">
+
+
+</head>
+<body>
+  <main class="escena">
+  <div class="contenedor">
+    <div class="sobre" id="sobre">
+      <div class="fondo"></div>
+
+<video class="tarjeta" id="videoInvitacion" src="src/invitacion.mp4" preload="auto" autoplay loop muted></video>
+
+
+
+      <div class="pestana izquierda"></div>
+      <div class="pestana derecha"></div>
+      <div class="pestana abajo"></div>
+      <div class="pestana arriba" id="pestanaArriba"></div>
+
+      <button class="boton-abrir" id="botonAbrir">
+        <img src="src/abrir.png" alt="Abrir sobre">
+      </button>
+    </div>
+
+    <div class="mensaje-ubicacion" id="mensajeUbicacion">
+      <p>Presiona aquí para ver la ubicación en tiempo actual:</p>
+      <a href="https://maps.app.goo.gl/kmz9iLf9bRZ8SSBTA" target="_blank">Abrir ubicación</a>
+    </div>
+  </div>
+</main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
